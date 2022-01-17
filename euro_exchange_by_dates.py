@@ -1,6 +1,5 @@
 import requests
 import matplotlib.pyplot as plt
-import matplotlib.dates as mdat
 import json
 import time
 
