@@ -6,13 +6,12 @@ import time
 
 
 def main():
-    i = 5
     dynamic_of_buying_euro = ({})
     user_input = 'start'
     while True:
         url = 'https://api.privatbank.ua/p24api/exchange_rates?json&date='
         print('please, input date: ')
-        # 1.12.2012 as example
+        # 1.12.2018 as example
         date = input()
         if date == 'stop':
             break
